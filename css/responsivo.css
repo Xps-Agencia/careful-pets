@@ -1,0 +1,167 @@
+
+@media (max-width: 767px) {
+    
+    header {
+    display: block;
+    background-color: #1cdbcb;
+    padding: 0;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#logo-header {
+    padding: 10px;
+    margin-left: 40px;
+    width: 110px;
+    height: 110px;
+}
+
+#cabecalho {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+}
+
+#itens {
+    text-align: center;
+    background-color: white;
+    background-image:  url(../img/Criação\ de\ Sites\ \(2\).png); 
+    width: 100%;
+    padding: 0;
+}
+
+.link {
+    display: block;
+    color: rgb(0, 0, 0);
+    font-weight: 600;
+    padding: 10px;
+    text-decoration: none;
+    border-bottom: 1px solid black;
+}
+
+menu {
+    display: none;
+}
+
+span#burguer {
+    position: absolute;
+    color: white;
+    top: 55px;
+    right: 60px;
+    cursor: pointer;
+}
+
+span#burguer:hover {
+    color: black;
+}
+
+#inicio {
+    padding: 0;
+    display: block;
+    text-align: center;
+}
+
+#imagem-inicio {
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.mobile-h1 {
+    font-size: 28px;
+    padding: 0;
+    color: rgba(0, 0, 0, 0.773);
+    padding: 10px 10px;
+    margin-bottom: 10px;
+}
+
+.paragrafo {
+    padding: 0;
+}
+
+.botao {
+    display: block;
+    background-color: #263138;
+    color: white;
+    padding: 16px 32px;
+    margin: 0 32px;
+    border-radius: 20px;
+    text-decoration: none;
+}
+
+.botao-transparente {
+    display: block;
+    background-color: transparent;
+    color: #263138;
+    padding: 16px 32px;
+    text-underline-offset: 4px;
+    margin-bottom: 60px;
+}
+
+#shape {
+    display: none;
+}
+
+#clinica {
+    display: block;
+    text-align: center;
+    padding: 0 0px;
+}
+
+#clinica img {
+    width: 100%;
+    height: 100%;
+    margin-bottom: 70px;
+    margin-top: 40px;
+}
+
+#clinica-texto {
+    margin: 0 10px;
+    margin-bottom: 40px;
+}
+
+#farmacia {
+    display: block;
+    padding: 0 20px;
+}
+
+#farmacia img {
+    width: 350px;
+    height: 350px;
+    margin-bottom: 20px;
+}
+
+#duvidas {
+    display: block;
+    padding: 0 20px;
+    margin-bottom: 100px;
+    
+}
+
+#imagem-duvidas {
+    width: 100%;
+    height: 100%;
+    
+}
+
+#duvidas h2 {
+    margin-top: 10px;
+     text-align: center;
+}
+
+footer {
+    display: block;
+    text-align: center;
+}
+
+footer img {
+    margin: 0 auto;
+}
+
+#texto-footer {
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+}
