@@ -6,6 +6,10 @@
     font-family: 'Montserrat', sans-serif;
 }
 
+body {
+    background-image:url(../img/Criação\ de\ Sites\ \(3\).png) ;
+}
+
 header {
     background: rgb(29,37,140);
     background: linear-gradient(270deg, rgba(29,37,140,1) 0%, rgba(16,199,228,1) 66%);
