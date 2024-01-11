@@ -1,9 +1,10 @@
 
-@media (max-width: 767px) {
+@media screen and (max-width: 768px) {
     
     header {
     display: block;
-    background-color: #1cdbcb;
+    background: rgb(29,37,140);
+    background: linear-gradient(270deg, rgba(29,37,140,1) 0%, rgba(16,199,228,1) 66%);
     padding: 0;
     align-items: center;
     justify-content: space-between;
@@ -46,14 +47,14 @@ menu {
 
 span#burguer {
     position: absolute;
-    color: white;
+    color: rgb(255, 255, 255);
     top: 55px;
     right: 60px;
     cursor: pointer;
 }
 
 span#burguer:hover {
-    color: black;
+    color: rgb(255, 255, 255);
 }
 
 #inicio {
@@ -82,7 +83,7 @@ span#burguer:hover {
 
 .botao {
     display: block;
-    background-color: #263138;
+    background-color: #1B3A97;
     color: white;
     padding: 16px 32px;
     margin: 0 32px;
@@ -93,7 +94,7 @@ span#burguer:hover {
 .botao-transparente {
     display: block;
     background-color: transparent;
-    color: #263138;
+    color: #1B3A97;
     padding: 16px 32px;
     text-underline-offset: 4px;
     margin-bottom: 60px;
