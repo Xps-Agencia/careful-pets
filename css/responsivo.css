@@ -57,7 +57,7 @@ span#burguer:hover {
 }
 
 #inicio {
-    padding: 0;
+    padding: 10px;
     display: block;
     text-align: center;
 }
